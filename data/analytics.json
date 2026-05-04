@@ -1,0 +1,917 @@
+[
+  {
+    "id": "823f9124-c09b-4318-98d0-097f3a271744",
+    "event": "showroom_load",
+    "timestamp": 1777921819204
+  },
+  {
+    "id": "0f0b9731-d05c-4ed4-ad9d-a0d8ce837bd3",
+    "event": "showroom_load",
+    "timestamp": 1777921819269
+  },
+  {
+    "id": "8bc4328d-af45-473e-a153-9961fd206c20",
+    "event": "showroom_load",
+    "timestamp": 1777921828068
+  },
+  {
+    "id": "52ee604a-2b98-4d85-a23f-62936a2cde24",
+    "event": "showroom_load",
+    "timestamp": 1777921828079
+  },
+  {
+    "id": "49d13bb9-fbd4-4b16-aa0e-9ef505a360fd",
+    "event": "showroom_load",
+    "timestamp": 1777921997167
+  },
+  {
+    "id": "95b70752-460f-4c74-9ac1-6821237e2842",
+    "event": "showroom_load",
+    "timestamp": 1777922155616
+  },
+  {
+    "id": "e0847196-eb31-4582-b4de-764cb352bdd6",
+    "event": "showroom_load",
+    "timestamp": 1777922272717
+  },
+  {
+    "id": "d2098d44-124e-43c5-aff3-6b033783911d",
+    "event": "category_click",
+    "metadata": {
+      "category": "R SERIES"
+    },
+    "timestamp": 1777922549097
+  },
+  {
+    "id": "812881f0-b476-49a2-87e5-fb38e50535c4",
+    "event": "category_click",
+    "metadata": {
+      "category": "MT SERIES"
+    },
+    "timestamp": 1777922550173
+  },
+  {
+    "id": "dad4c672-ed07-49a4-bd89-883a29c66114",
+    "event": "category_click",
+    "metadata": {
+      "category": "FZ SERIES"
+    },
+    "timestamp": 1777922551303
+  },
+  {
+    "id": "ab7c5a61-3486-4c94-a68c-4f1f70a20f1e",
+    "event": "category_click",
+    "metadata": {
+      "category": "R SERIES"
+    },
+    "timestamp": 1777922552311
+  },
+  {
+    "id": "32ba33c4-7c62-48f7-aef2-1cccaba4210c",
+    "event": "model_click",
+    "metadata": {
+      "model": "R15M",
+      "category": "R SERIES"
+    },
+    "timestamp": 1777922555941
+  },
+  {
+    "id": "50efa0fc-28b8-4a4b-bab6-003f7139c8c0",
+    "event": "showroom_load",
+    "timestamp": 1777922565019
+  },
+  {
+    "id": "a018a3d5-85cd-42c7-a4ba-8b12bd81bec9",
+    "event": "showroom_load",
+    "timestamp": 1777922565045
+  },
+  {
+    "id": "63414ebd-e25f-49d3-aede-74cef7a3d20a",
+    "event": "showroom_load",
+    "timestamp": 1777922605466
+  },
+  {
+    "id": "f8681075-5ae6-4630-a197-b0b1202803dc",
+    "event": "showroom_load",
+    "timestamp": 1777922605499
+  },
+  {
+    "id": "f2cbe362-8781-4312-b539-cc23ddbe5232",
+    "event": "showroom_load",
+    "timestamp": 1777922654474
+  },
+  {
+    "id": "f223c59f-2206-4a4b-890b-3bd5101bcf44",
+    "event": "category_click",
+    "metadata": {
+      "category": "R SERIES"
+    },
+    "timestamp": 1777922666160
+  },
+  {
+    "id": "20c74334-3bbe-4357-92d6-2e4972fa7ce9",
+    "event": "category_click",
+    "metadata": {
+      "category": "MT SERIES"
+    },
+    "timestamp": 1777922667203
+  },
+  {
+    "id": "52687c0f-706c-41e4-9baa-370b62a0366e",
+    "event": "category_click",
+    "metadata": {
+      "category": "SCOOTER SERIES"
+    },
+    "timestamp": 1777922667919
+  },
+  {
+    "id": "c78cd220-15b6-4a55-8447-3a30e7edb56b",
+    "event": "category_click",
+    "metadata": {
+      "category": "FZ SERIES"
+    },
+    "timestamp": 1777922668674
+  },
+  {
+    "id": "301a44a4-1863-4dd3-8790-077429af5ab6",
+    "event": "showroom_load",
+    "timestamp": 1777923097833
+  },
+  {
+    "id": "ab2633d4-bcf0-4da5-b4b7-77194f97ce66",
+    "event": "showroom_load",
+    "timestamp": 1777923097872
+  },
+  {
+    "id": "ada0ee96-1800-4686-a8b0-31180febc61a",
+    "event": "category_click",
+    "metadata": {
+      "category": "R SERIES"
+    },
+    "timestamp": 1777923827593
+  },
+  {
+    "id": "a87252d7-a6a1-4dcf-9000-bc0c868a3674",
+    "event": "category_click",
+    "metadata": {
+      "category": "FZ SERIES"
+    },
+    "timestamp": 1777924265762
+  },
+  {
+    "id": "c51bcf66-2a79-4cb9-bdba-6fd7fe1b3d79",
+    "event": "model_click",
+    "metadata": {
+      "model": "FZS V4",
+      "category": "FZ SERIES"
+    },
+    "timestamp": 1777924271283
+  },
+  {
+    "id": "a4969c92-1dac-4575-9c74-fb78abf7146d",
+    "event": "model_click",
+    "metadata": {
+      "model": "FZS FI",
+      "category": "FZ SERIES"
+    },
+    "timestamp": 1777925041271
+  },
+  {
+    "id": "260061eb-3283-47fb-8d43-c23d1f5944c1",
+    "event": "showroom_load",
+    "timestamp": 1777925057388
+  },
+  {
+    "id": "02176614-7882-4c87-b20a-7fc8e8952b7d",
+    "event": "model_click",
+    "metadata": {
+      "model": "FZ-X",
+      "category": "FZ SERIES"
+    },
+    "timestamp": 1777925064522
+  },
+  {
+    "id": "9f587a95-f136-47ad-8fd4-1f5abdfb7980",
+    "event": "showroom_load",
+    "timestamp": 1777925081206
+  },
+  {
+    "id": "8c92fbe3-5912-4e4b-9996-107b3ff5f6d8",
+    "event": "showroom_load",
+    "timestamp": 1777925297953
+  },
+  {
+    "id": "b8fcd1be-5776-4bd0-b415-99ee92471136",
+    "event": "model_click",
+    "metadata": {
+      "model": "FZS V4",
+      "category": "FZ SERIES"
+    },
+    "timestamp": 1777925307385
+  },
+  {
+    "id": "bf783304-03f3-426a-a9dd-31e5c3a87f8b",
+    "event": "model_click",
+    "metadata": {
+      "model": "FZ 25",
+      "category": "FZ SERIES"
+    },
+    "timestamp": 1777925334921
+  },
+  {
+    "id": "798caf6f-2dfb-4fc5-bb1c-bbb4516ef132",
+    "event": "showroom_load",
+    "timestamp": 1777925491410
+  },
+  {
+    "id": "00fadfee-e0bc-4be9-add2-a4e43c62c4b2",
+    "event": "showroom_load",
+    "timestamp": 1777925491424
+  },
+  {
+    "id": "d7a444dc-230d-4475-8e67-dc68c5194665",
+    "event": "showroom_load",
+    "timestamp": 1777925491429
+  },
+  {
+    "id": "ebb30b7c-8f88-4e88-8b5c-47c3b824dcff",
+    "event": "showroom_load",
+    "timestamp": 1777925507458
+  },
+  {
+    "id": "bf0480e5-d660-4383-8f04-30572c39d06e",
+    "event": "category_click",
+    "metadata": {
+      "category": "R SERIES"
+    },
+    "timestamp": 1777925512949
+  },
+  {
+    "id": "8ad3d139-9b64-4db6-ab8c-ff3cdbfae8a8",
+    "event": "category_click",
+    "metadata": {
+      "category": "MT SERIES"
+    },
+    "timestamp": 1777925514155
+  },
+  {
+    "id": "b57d0597-bbc3-459e-b7d6-b8ae9f5605f6",
+    "event": "category_click",
+    "metadata": {
+      "category": "SCOOTER SERIES"
+    },
+    "timestamp": 1777925515089
+  },
+  {
+    "id": "b29443db-3e61-4765-8f13-6cf9ce898a8d",
+    "event": "category_click",
+    "metadata": {
+      "category": "FZ SERIES"
+    },
+    "timestamp": 1777925517961
+  },
+  {
+    "id": "468f3a2e-3124-4cfe-ab28-11a5f4927c79",
+    "event": "showroom_load",
+    "timestamp": 1777925518279
+  },
+  {
+    "id": "7a72ecb7-76a7-4ae1-a3da-c275cb2cad4e",
+    "event": "showroom_load",
+    "timestamp": 1777925525074
+  },
+  {
+    "id": "c1f7ca1f-7c54-46e1-9b55-415a8756c42b",
+    "event": "showroom_load",
+    "timestamp": 1777925530361
+  },
+  {
+    "id": "5e6f47dc-c8fa-4410-b404-a52bee49040f",
+    "event": "showroom_load",
+    "timestamp": 1777925556687
+  },
+  {
+    "id": "ab3fc312-3f46-4ef5-b56a-446454fe5c27",
+    "event": "model_click",
+    "metadata": {
+      "model": "FZ-X",
+      "category": "FZ SERIES"
+    },
+    "timestamp": 1777925564499
+  },
+  {
+    "id": "9a5c0e0e-19a7-4c88-a047-3abcfa1b20cb",
+    "event": "category_click",
+    "metadata": {
+      "category": "R SERIES"
+    },
+    "timestamp": 1777925570148
+  },
+  {
+    "id": "a53feb77-7a76-43ce-9630-55bba60d1e49",
+    "event": "category_click",
+    "metadata": {
+      "category": "MT SERIES"
+    },
+    "timestamp": 1777925570937
+  },
+  {
+    "id": "bafc0e24-3738-4732-b9b0-c462d429b959",
+    "event": "model_click",
+    "metadata": {
+      "model": "MT-15",
+      "category": "MT SERIES"
+    },
+    "timestamp": 1777925578442
+  },
+  {
+    "id": "a65e81fd-e1d2-45b7-91af-3a88648846dc",
+    "event": "category_click",
+    "metadata": {
+      "category": "SCOOTER SERIES"
+    },
+    "timestamp": 1777925583089
+  },
+  {
+    "id": "5ddcc462-a0fb-4b8e-8efb-ff7f2d772422",
+    "event": "model_click",
+    "metadata": {
+      "model": "Fascino",
+      "category": "SCOOTER SERIES"
+    },
+    "timestamp": 1777925588346
+  },
+  {
+    "id": "20827505-f7b9-4f4f-b24c-b324450e2b8f",
+    "event": "category_click",
+    "metadata": {
+      "category": "FZ SERIES"
+    },
+    "timestamp": 1777925615111
+  },
+  {
+    "id": "5fbdc519-4329-4292-9b37-6175c61c920f",
+    "event": "model_click",
+    "metadata": {
+      "model": "FZS V4",
+      "category": "FZ SERIES"
+    },
+    "timestamp": 1777925861530
+  },
+  {
+    "id": "1d904bee-cfc2-45ab-a121-da5f10b557c6",
+    "event": "model_click",
+    "metadata": {
+      "model": "FZ 25",
+      "category": "FZ SERIES"
+    },
+    "timestamp": 1777925866121
+  },
+  {
+    "id": "87f88192-deda-4ffb-a602-a3ef268d0550",
+    "event": "showroom_load",
+    "timestamp": 1777926045876
+  },
+  {
+    "id": "409eb028-346d-4302-9462-0d6154bb27c6",
+    "event": "category_click",
+    "metadata": {
+      "category": "R SERIES"
+    },
+    "timestamp": 1777926058139
+  },
+  {
+    "id": "912d5825-efb6-4cfb-831a-78213381857c",
+    "event": "category_click",
+    "metadata": {
+      "category": "MT SERIES"
+    },
+    "timestamp": 1777926062930
+  },
+  {
+    "id": "ab861579-3333-4ac5-9f2d-d98bea76f6a0",
+    "event": "category_click",
+    "metadata": {
+      "category": "SCOOTER SERIES"
+    },
+    "timestamp": 1777926069656
+  },
+  {
+    "id": "925f4164-b65e-49c8-b130-5d0961c5641d",
+    "event": "showroom_load",
+    "timestamp": 1777926074704
+  },
+  {
+    "id": "aedc38c5-0dc0-4465-b602-232a9bcaa303",
+    "event": "category_click",
+    "metadata": {
+      "category": "R SERIES"
+    },
+    "timestamp": 1777926103055
+  },
+  {
+    "id": "fe8093b8-4668-44b0-96e7-236b8d4a8d7e",
+    "event": "category_click",
+    "metadata": {
+      "category": "FZ SERIES"
+    },
+    "timestamp": 1777926124058
+  },
+  {
+    "id": "06ba9497-2fa7-4196-97c2-4629a87aebd1",
+    "event": "category_click",
+    "metadata": {
+      "category": "FZ SERIES"
+    },
+    "timestamp": 1777926134929
+  },
+  {
+    "id": "a9c8c71e-4e69-4992-ac57-cb4959aec57e",
+    "event": "category_click",
+    "metadata": {
+      "category": "MT SERIES"
+    },
+    "timestamp": 1777926138337
+  },
+  {
+    "id": "ae407d27-f4f0-4e66-9756-651edc236017",
+    "event": "category_click",
+    "metadata": {
+      "category": "SCOOTER SERIES"
+    },
+    "timestamp": 1777926148450
+  },
+  {
+    "id": "46af88a2-ecf5-44cb-b5e3-4f8ff3f8f35e",
+    "event": "category_click",
+    "metadata": {
+      "category": "FZ SERIES"
+    },
+    "timestamp": 1777926161677
+  },
+  {
+    "id": "dd878ea5-b26e-479a-ba37-121748158810",
+    "event": "showroom_load",
+    "timestamp": 1777926170736
+  },
+  {
+    "id": "90ee027a-c531-4d05-88bc-bbface8d81d6",
+    "event": "category_click",
+    "metadata": {
+      "category": "MT SERIES"
+    },
+    "timestamp": 1777926181913
+  },
+  {
+    "id": "b024d4b4-9492-45fb-90ec-0328ace34c5b",
+    "event": "category_click",
+    "metadata": {
+      "category": "SCOOTER SERIES"
+    },
+    "timestamp": 1777926200084
+  },
+  {
+    "id": "8a37f8d5-05b2-4644-8cab-b6a7d5bb681a",
+    "event": "showroom_load",
+    "timestamp": 1777926301897
+  },
+  {
+    "id": "2ad2d5ca-7ff9-4b59-904e-6326c55f7f25",
+    "event": "showroom_load",
+    "timestamp": 1777926301902
+  },
+  {
+    "id": "d1441811-13b9-4414-b994-226c613a64b0",
+    "event": "category_click",
+    "metadata": {
+      "category": "FZ SERIES"
+    },
+    "timestamp": 1777926305018
+  },
+  {
+    "id": "e3cb71ad-4e25-4e4e-b45e-61f0d8adaa5c",
+    "event": "showroom_load",
+    "timestamp": 1777926315424
+  },
+  {
+    "id": "b941b529-7eb9-4a9b-8840-e40bd1c20fbe",
+    "event": "model_click",
+    "metadata": {
+      "model": "FZS V4",
+      "category": "FZ SERIES"
+    },
+    "timestamp": 1777926326573
+  },
+  {
+    "id": "5d200b94-7c6c-4ae8-9938-baabc38bec0b",
+    "event": "category_click",
+    "metadata": {
+      "category": "R SERIES"
+    },
+    "timestamp": 1777926330641
+  },
+  {
+    "id": "e4b0be08-540e-4bf0-ab67-930ed4846a7a",
+    "event": "category_click",
+    "metadata": {
+      "category": "MT SERIES"
+    },
+    "timestamp": 1777926337821
+  },
+  {
+    "id": "63bff6b9-52d3-4e4a-a299-05e5237c5944",
+    "event": "category_click",
+    "metadata": {
+      "category": "SCOOTER SERIES"
+    },
+    "timestamp": 1777926340106
+  },
+  {
+    "id": "e2c0e721-712b-4ec0-bd8a-abcb66c42d47",
+    "event": "model_click",
+    "metadata": {
+      "model": "RayZR",
+      "category": "SCOOTER SERIES"
+    },
+    "timestamp": 1777926368469
+  },
+  {
+    "id": "f8ca8bec-e3ae-414f-8f51-f1de20ddbd93",
+    "event": "category_click",
+    "metadata": {
+      "category": "FZ SERIES"
+    },
+    "timestamp": 1777926382771
+  },
+  {
+    "id": "52155489-33bd-4874-94c5-bb15eab46f6b",
+    "event": "showroom_load",
+    "timestamp": 1777926392102
+  },
+  {
+    "id": "f4ed3cb3-3dc4-4c1b-88f3-fea2a906d5b0",
+    "event": "showroom_load",
+    "timestamp": 1777926400691
+  },
+  {
+    "id": "60b904d4-8a87-496c-b490-f40ae71e3b96",
+    "event": "model_click",
+    "metadata": {
+      "model": "FZS V4",
+      "category": "FZ SERIES"
+    },
+    "timestamp": 1777926458323
+  },
+  {
+    "id": "c9dd1593-e35c-4917-912a-f77f41551399",
+    "event": "showroom_load",
+    "timestamp": 1777926462827
+  },
+  {
+    "id": "016f7d73-4b04-4648-8c33-8adeab64b1fe",
+    "event": "model_click",
+    "metadata": {
+      "model": "FZS FI",
+      "category": "FZ SERIES"
+    },
+    "timestamp": 1777926473513
+  },
+  {
+    "id": "598b10c1-115c-4967-a276-f726a02e5335",
+    "event": "category_click",
+    "metadata": {
+      "category": "R SERIES"
+    },
+    "timestamp": 1777926486370
+  },
+  {
+    "id": "3026d73e-c352-4fec-b6e5-884fe45fc783",
+    "event": "showroom_load",
+    "timestamp": 1777926540075
+  },
+  {
+    "id": "bfc78eac-728f-4c97-bc8f-faa5390468d5",
+    "event": "showroom_load",
+    "timestamp": 1777926540076
+  },
+  {
+    "id": "d1e5f197-1b85-4f9c-90f0-df18cd5c7ee2",
+    "event": "showroom_load",
+    "timestamp": 1777926564528
+  },
+  {
+    "id": "141dfe99-c72d-4ca9-9e13-987db292b97b",
+    "event": "category_click",
+    "metadata": {
+      "category": "MT SERIES"
+    },
+    "timestamp": 1777926749652
+  },
+  {
+    "id": "f47f4614-73aa-42b9-ae54-b1f0e29f3525",
+    "event": "category_click",
+    "metadata": {
+      "category": "SCOOTER SERIES"
+    },
+    "timestamp": 1777926754694
+  },
+  {
+    "id": "a4bccd18-d821-414a-8fa2-b664a1717505",
+    "event": "category_click",
+    "metadata": {
+      "category": "FZ SERIES"
+    },
+    "timestamp": 1777926759058
+  },
+  {
+    "id": "8a1bcabc-8dd2-4e01-8b11-b36e635d23c1",
+    "event": "showroom_load",
+    "timestamp": 1777927302585
+  },
+  {
+    "id": "87fdc502-27ec-470c-8550-3a6511ef936e",
+    "event": "showroom_load",
+    "timestamp": 1777927302593
+  },
+  {
+    "id": "06212b94-6577-451c-9ad5-295778bde911",
+    "event": "showroom_load",
+    "timestamp": 1777927326350
+  },
+  {
+    "id": "56561cae-0943-45fa-aa26-40bc9e501d60",
+    "event": "category_click",
+    "metadata": {
+      "category": "R SERIES"
+    },
+    "timestamp": 1777927342267
+  },
+  {
+    "id": "04433401-1493-4a3d-85de-a8cae240b5f3",
+    "event": "model_click",
+    "metadata": {
+      "model": "R15M",
+      "category": "R SERIES"
+    },
+    "timestamp": 1777927347666
+  },
+  {
+    "id": "7cabc433-5d07-41a3-90c8-a78dd4f7144c",
+    "event": "category_click",
+    "metadata": {
+      "category": "MT SERIES"
+    },
+    "timestamp": 1777927350829
+  },
+  {
+    "id": "ddcd6e80-05c3-4cf2-97b8-78f7be7d7b91",
+    "event": "category_click",
+    "metadata": {
+      "category": "R SERIES"
+    },
+    "timestamp": 1777927358134
+  },
+  {
+    "id": "6e766f88-dd7b-4884-b536-97c6c0fbb108",
+    "event": "category_click",
+    "metadata": {
+      "category": "MT SERIES"
+    },
+    "timestamp": 1777927359535
+  },
+  {
+    "id": "c4514748-0727-422b-9c3e-3327b36c5300",
+    "event": "category_click",
+    "metadata": {
+      "category": "SCOOTER SERIES"
+    },
+    "timestamp": 1777927361122
+  },
+  {
+    "id": "f06df409-702a-4925-ad24-73f54aeb5cb0",
+    "event": "model_click",
+    "metadata": {
+      "model": "Fascino",
+      "category": "SCOOTER SERIES"
+    },
+    "timestamp": 1777927371424
+  },
+  {
+    "id": "73b4141e-6a25-4ae5-947b-a5f43a4789e0",
+    "event": "category_click",
+    "metadata": {
+      "category": "MT SERIES"
+    },
+    "timestamp": 1777927378626
+  },
+  {
+    "id": "f2efd512-4d88-41fb-a1bb-ce562063149b",
+    "event": "category_click",
+    "metadata": {
+      "category": "R SERIES"
+    },
+    "timestamp": 1777927379474
+  },
+  {
+    "id": "b898b23f-67cf-42fb-8367-4d1581dfb9dd",
+    "event": "category_click",
+    "metadata": {
+      "category": "FZ SERIES"
+    },
+    "timestamp": 1777927380066
+  },
+  {
+    "id": "7c838cf1-8c9e-4d0e-9967-5fe103540896",
+    "event": "model_click",
+    "metadata": {
+      "model": "FZ-X",
+      "category": "FZ SERIES"
+    },
+    "timestamp": 1777927385102
+  },
+  {
+    "id": "1f9c52a5-16ab-4b33-aabb-2784978a022b",
+    "event": "showroom_load",
+    "timestamp": 1777927389930
+  },
+  {
+    "id": "afc8ef21-b4d5-4ca4-85f9-05fa10c4a77d",
+    "event": "category_click",
+    "metadata": {
+      "category": "R SERIES"
+    },
+    "timestamp": 1777927422569
+  },
+  {
+    "id": "5960a76e-0ffa-4807-a9b8-891753737cc3",
+    "event": "model_click",
+    "metadata": {
+      "model": "R15 V4",
+      "category": "R SERIES"
+    },
+    "timestamp": 1777927441850
+  },
+  {
+    "id": "88c58cca-bada-410d-ad3c-d64d49f7d538",
+    "event": "category_click",
+    "metadata": {
+      "category": "FZ SERIES"
+    },
+    "timestamp": 1777927502874
+  },
+  {
+    "id": "affedeae-1f03-4eda-829e-d4eb0d4c362d",
+    "event": "showroom_load",
+    "timestamp": 1777927521497
+  },
+  {
+    "id": "b8e55b45-62df-417f-958a-8d75ea3acbd0",
+    "event": "showroom_load",
+    "timestamp": 1777927605171
+  },
+  {
+    "id": "7f61547b-10f4-41f3-881a-132f3a2b9e2f",
+    "event": "model_click",
+    "metadata": {
+      "model": "FZS FI",
+      "category": "FZ SERIES"
+    },
+    "timestamp": 1777927671983
+  },
+  {
+    "id": "39b25c84-6280-41eb-b6cc-7d9b7fc44ffc",
+    "event": "model_click",
+    "metadata": {
+      "model": "FZ-X",
+      "category": "FZ SERIES"
+    },
+    "timestamp": 1777927688343
+  },
+  {
+    "id": "415d9f69-bb72-46cd-bfd4-a7b6a7d307bf",
+    "event": "model_click",
+    "metadata": {
+      "model": "FZS FI",
+      "category": "FZ SERIES"
+    },
+    "timestamp": 1777927694717
+  },
+  {
+    "id": "ac613c4f-e782-4170-8f78-156934b42065",
+    "event": "category_click",
+    "metadata": {
+      "category": "MT SERIES"
+    },
+    "timestamp": 1777927698307
+  },
+  {
+    "id": "d62a620c-d57f-4d6e-a199-705d32b5a182",
+    "event": "category_click",
+    "metadata": {
+      "category": "SCOOTER SERIES"
+    },
+    "timestamp": 1777927703202
+  },
+  {
+    "id": "649e4364-f820-484f-a9e2-acf3aa5e05d7",
+    "event": "model_click",
+    "metadata": {
+      "model": "RayZR",
+      "category": "SCOOTER SERIES"
+    },
+    "timestamp": 1777927708243
+  },
+  {
+    "id": "814ac1a9-3313-4a32-80c3-e57f06e89dcd",
+    "event": "category_click",
+    "metadata": {
+      "category": "MT SERIES"
+    },
+    "timestamp": 1777927711730
+  },
+  {
+    "id": "623b0e6d-9d13-4a22-a5e9-322b66cda9d2",
+    "event": "category_click",
+    "metadata": {
+      "category": "R SERIES"
+    },
+    "timestamp": 1777927713131
+  },
+  {
+    "id": "2c5ad5bc-a9fc-4132-95a7-e6438b781bda",
+    "event": "category_click",
+    "metadata": {
+      "category": "FZ SERIES"
+    },
+    "timestamp": 1777927714018
+  },
+  {
+    "id": "bce8c108-d5ab-4356-b062-4b2656852f3a",
+    "event": "showroom_load",
+    "timestamp": 1777927920824
+  },
+  {
+    "id": "7ee92d1f-9f43-486e-bd8a-ccdaca1ed48e",
+    "event": "showroom_load",
+    "timestamp": 1777927921039
+  },
+  {
+    "id": "b0517ddd-6546-4de7-a7bf-730c4f3bf705",
+    "event": "showroom_load",
+    "timestamp": 1777927947607
+  },
+  {
+    "id": "e4932b35-502d-4ed9-8220-e528076428f3",
+    "event": "showroom_load",
+    "timestamp": 1777927947612
+  },
+  {
+    "id": "3ff41578-7396-45b2-9e7f-d786316f1dd0",
+    "event": "showroom_load",
+    "timestamp": 1777927973580
+  },
+  {
+    "id": "cfa8546a-fd7e-4544-adc7-23b0f667a5f6",
+    "event": "showroom_load",
+    "timestamp": 1777928295345
+  },
+  {
+    "id": "7ff7b989-8a65-4411-8332-ce9e826623c0",
+    "event": "model_click",
+    "metadata": {
+      "model": "FZ 25",
+      "category": "FZ SERIES"
+    },
+    "timestamp": 1777928343112
+  },
+  {
+    "id": "706fd57a-0762-41ed-9f01-45d9536bdd5f",
+    "event": "showroom_load",
+    "timestamp": 1777928359143
+  },
+  {
+    "id": "99c63c41-2d46-489e-8d3a-d87951a34509",
+    "event": "category_click",
+    "metadata": {
+      "category": "MT SERIES"
+    },
+    "timestamp": 1777928367974
+  },
+  {
+    "id": "3a9eebf3-b9dc-48a2-82cf-c63e42e0e51b",
+    "event": "category_click",
+    "metadata": {
+      "category": "SCOOTER SERIES"
+    },
+    "timestamp": 1777928377443
+  },
+  {
+    "id": "40a03c56-6af0-41bb-a8fb-2a58bcd6ecbb",
+    "event": "model_click",
+    "metadata": {
+      "model": "FZS V4",
+      "category": "FZ SERIES"
+    },
+    "timestamp": 1777928560479
+  }
+]
