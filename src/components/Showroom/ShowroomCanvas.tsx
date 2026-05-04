@@ -208,9 +208,12 @@ export default function ShowroomCanvas({ bikes, onSelectBike }: ShowroomCanvasPr
       <Canvas
         shadows={isMobile ? false : 'soft'}
         dpr={isMobile ? 1 : [1, 1.5]}
-        frameloop="demand"
+        /* 
+         * Switch to 'always' on mobile temporarily to ensure models pop in 
+         * without needing a touch event.
+         */
+        frameloop={isMobile ? 'always' : 'demand'}
         onCreated={({ gl }) => {
-          // Match the CSS .showroom-bg gradient midpoint so no black void appears
           gl.setClearColor('#f0f0f0', 1);
         }}
         gl={{
@@ -243,12 +246,18 @@ export default function ShowroomCanvas({ bikes, onSelectBike }: ShowroomCanvasPr
         />
 
         <ShowroomLighting isMobile={isMobile} />
-
-        <Suspense fallback={null}>
-          {/*
-           * Environment: 'apartment' gives warm, neutral, bright reflections.
-           * resolution={64} is the key — default 256 costs ~4× more memory.
-           */}
+        
+        {/* Loading indicator for the 3D models specifically */}
+        <Suspense fallback={
+          <Html center>
+            <div className="flex flex-col items-center gap-2">
+              <div className="spinner" style={{ width: 24, height: 24 }} />
+              <p style={{ fontSize: 9, fontWeight: 700, letterSpacing: '0.15em', color: '#005BAC', textTransform: 'uppercase' }}>
+                Downloading Models...
+              </p>
+            </div>
+          </Html>
+        }>
           <Environment preset="apartment" background={false} resolution={isMobile ? 32 : 64} />
 
           {/* Wrap all scene objects in Bvh for O(log n) raycasting on click */}
