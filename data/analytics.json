@@ -913,5 +913,10 @@
       "category": "FZ SERIES"
     },
     "timestamp": 1777928560479
+  },
+  {
+    "id": "8a0f0150-bb89-4729-9a7c-910ae9aac651",
+    "event": "showroom_load",
+    "timestamp": 1777929850657
   }
 ]

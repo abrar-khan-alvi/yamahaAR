@@ -1,9 +1,8 @@
-'use client';
-
 import { useGLTF } from '@react-three/drei';
 import { useMemo, useRef, useEffect } from 'react';
 import * as THREE from 'three';
 import type { Group } from 'three';
+import { MeshoptDecoder } from 'meshoptimizer';
 
 interface BikeModelProps {
   url: string;
@@ -33,7 +32,11 @@ export default function BikeModel({
   rotation = [0, 0, 0],
   onSelect,
 }: BikeModelProps) {
-  const { scene } = useGLTF(url);
+  // Use GLTF with Draco and Meshopt decoders
+  const { scene } = useGLTF(url, true, true, (loader) => {
+    // Set Meshopt decoder for models simplified in gltf.report
+    loader.setMeshoptDecoder(MeshoptDecoder);
+  });
   const groupRef = useRef<Group>(null);
 
   const clone = useMemo(() => {
