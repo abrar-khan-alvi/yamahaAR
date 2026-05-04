@@ -247,24 +247,34 @@ export default function ShowroomCanvas({ bikes, onSelectBike }: ShowroomCanvasPr
 
         <ShowroomLighting isMobile={isMobile} />
         
-        {/* Loading indicator for the 3D models specifically */}
+        {/* ── SHOWROOM ROOM & ENVIRONMENT (Loads fast) ── */}
+        <Suspense fallback={null}>
+          <Environment preset="apartment" background={false} resolution={isMobile ? 32 : 64} />
+          <ShowroomFloor isMobile={isMobile} />
+          <ShowroomRoom isMobile={isMobile} />
+        </Suspense>
+
+        {/* ── BIKE MODELS (Loads heavy assets) ── */}
         <Suspense fallback={
           <Html center>
             <div className="flex flex-col items-center gap-2">
               <div className="spinner" style={{ width: 24, height: 24 }} />
-              <p style={{ fontSize: 9, fontWeight: 700, letterSpacing: '0.15em', color: '#005BAC', textTransform: 'uppercase' }}>
+              <p style={{ 
+                fontSize: 9, 
+                fontWeight: 700, 
+                letterSpacing: '0.15em', 
+                color: '#005BAC', 
+                textTransform: 'uppercase',
+                background: 'rgba(255,255,255,0.8)',
+                padding: '4px 8px',
+                borderRadius: '4px'
+              }}>
                 Downloading Models...
               </p>
             </div>
           </Html>
         }>
-          <Environment preset="apartment" background={false} resolution={isMobile ? 32 : 64} />
-
-          {/* Wrap all scene objects in Bvh for O(log n) raycasting on click */}
           <Bvh>
-            <ShowroomFloor isMobile={isMobile} />
-            <ShowroomRoom isMobile={isMobile} />
-
             {bikes.map((bike) => (
               <group key={bike.id}>
                 <DisplayPodium position={bike.position} isMobile={isMobile} />
@@ -288,6 +298,7 @@ export default function ShowroomCanvas({ bikes, onSelectBike }: ShowroomCanvasPr
             <BakedShadows bikes={bikes} isMobile={isMobile} />
           </Bvh>
         </Suspense>
+
       </Canvas>
     </div>
   );
