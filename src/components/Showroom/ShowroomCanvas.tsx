@@ -229,20 +229,22 @@ export default function ShowroomCanvas({ bikes, onSelectBike }: ShowroomCanvasPr
           fov={isMobile ? 62 : 55}
         />
         <OrbitControls
-          enablePan={false}
-          minPolarAngle={Math.PI / 5}
-          maxPolarAngle={Math.PI / 2.05}   /* nearly horizontal, stops before floor clipping */
-          minDistance={isMobile ? 5 : 7}
-          maxDistance={isMobile ? 16 : 24}
+          enablePan={true}
+          panSpeed={isMobile ? 1.5 : 1.0}
+          minPolarAngle={Math.PI / 6}
+          maxPolarAngle={Math.PI / 2.02}   /* slightly more headroom, stops before floor clipping */
+          minDistance={isMobile ? 4 : 5}
+          maxDistance={isMobile ? 22 : 30}
           makeDefault
           enableDamping
-          dampingFactor={0.1}
+          dampingFactor={0.07}
           /*
-           * Reduce the number of re-renders during inertia by increasing
-           * the threshold below which rotation is considered "stopped".
+           * rotateSpeed slightly higher for 'free' feel
            */
-          rotateSpeed={isMobile ? 0.6 : 0.8}
-          zoomSpeed={0.7}
+          rotateSpeed={isMobile ? 0.7 : 0.9}
+          zoomSpeed={0.8}
+          /* Prevent camera from going too far from showroom center */
+          maxTargetRadius={20}
         />
 
         <ShowroomLighting isMobile={isMobile} />
